@@ -24,12 +24,34 @@ Proposed: **Himes et al. 2014 (GEO: GSE52778)**, human airway smooth muscle cell
 ## 📁 Project structure (TODO — IN PROGRESS)
 
 ## 🚀 Getting started
+
+### Option A: Workshop collaborators (with write access)
+Clone the repository directly:
+
 ```bash
 git clone https://github.com/fatinataly/rnaseq-pipeline-workshop.git
 cd rnaseq-pipeline-workshop
 conda env create -f environment.yml
 conda activate rnaseq-workshop
 ```
+
+Create a branch, commit your changes, push the branch and open a Pull Request to `main`.
+
+### Option B: External contributors (without write access)
+1. Click **Fork** at the top right of this page.
+2. Clone your fork:
+
+```bash
+git clone https://github.com/<your-username>/rnaseq-pipeline-workshop.git
+cd rnaseq-pipeline-workshop
+conda env create -f environment.yml
+conda activate rnaseq-workshop
+```
+
+3. Create a branch, commit your changes and push them to your fork.
+4. Open a Pull Request to `fatinataly/rnaseq-pipeline-workshop`.
+
+> 💡 Before starting new work, click **Sync fork** on your fork's GitHub page to get the latest changes.
 
 ## 🤝 Contributing
 1. Pick a ticket from the current Jira sprint.
