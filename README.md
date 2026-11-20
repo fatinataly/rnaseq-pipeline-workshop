@@ -1,5 +1,7 @@
 # RNA-seq Pipeline Workshop
 
+[![CI](https://github.com/MultiOmics-Intelligence/rnaseq-pipeline-workshop/actions/workflows/ci.yml/badge.svg)](https://github.com/MultiOmics-Intelligence/rnaseq-pipeline-workshop/actions/workflows/ci.yml)
+
 A hands-on **group project** at MultiOmics Intelligence. Two teams each analyse a real bulk RNA-seq dataset step by step in Python, from raw reads to biological interpretation, while learning good coding practice, GitHub and Agile with Jira.
 
 The workshop was proposed and is led by **Fatima Diaz** ([@fatinataly](https://github.com/fatinataly)).
