@@ -1,0 +1,30 @@
+name: rnaseq-workshop
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  # Command-line tools
+  - sra-tools
+  - fastqc
+  - multiqc
+  - fastp
+  - salmon
+  # Python analysis
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pyyaml
+  - jupyterlab
+  - gseapy
+  # Code quality
+  - pytest
+  - ruff
+  - pip
+  - pip:
+      - pydeseq2
+      - pytximport
+      - -e .
