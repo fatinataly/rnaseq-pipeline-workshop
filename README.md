@@ -1,8 +1,8 @@
 # RNA-seq Pipeline Workshop
 
-[![CI](https://github.com/MultiOmics-Intelligence/rnaseq-pipeline-workshop/actions/workflows/ci.yml/badge.svg)](https://github.com/MultiOmics-Intelligence/rnaseq-pipeline-workshop/actions/workflows/ci.yml)
+[![CI](https://github.com/fatinataly/rnaseq-pipeline-workshop/actions/workflows/ci.yml/badge.svg)](https://github.com/fatinataly/rnaseq-pipeline-workshop/actions/workflows/ci.yml)
 
-A hands-on **group project** at MultiOmics Intelligence. Two teams each analyse a real bulk RNA-seq dataset step by step in Python, from raw reads to biological interpretation, while learning good coding practice, GitHub and Agile with Jira.
+A hands-on **group project**. Two teams each analyse a real bulk RNA-seq dataset step by step in Python, from raw reads to biological interpretation, while learning good coding practice, GitHub and Agile with Jira.
 
 The workshop was proposed and is led by **Fatima Diaz** ([@fatinataly](https://github.com/fatinataly)).
 
@@ -84,7 +84,7 @@ rnaseq-pipeline-workshop/
 ### Option A: Workshop participants (with write access)
 
 ```bash
-git clone https://github.com/MultiOmics-Intelligence/rnaseq-pipeline-workshop.git
+git clone https://github.com/fatinataly/rnaseq-pipeline-workshop.git
 cd rnaseq-pipeline-workshop
 conda env create -f environment.yml
 conda activate rnaseq-workshop
@@ -104,7 +104,7 @@ conda activate rnaseq-workshop
 ```
 
 3. Create a branch, commit your changes and push them to your fork.
-4. Open a Pull Request to `MultiOmics-Intelligence/rnaseq-pipeline-workshop`.
+4. Open a Pull Request to `fatinataly/rnaseq-pipeline-workshop`.
 
 > 💡 Before starting new work, click **Sync fork** on your fork's GitHub page to get the latest changes.
 
@@ -124,10 +124,15 @@ pytest
 Full details are in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 ## 📬 Contact
-- **Workshop lead:** Fatima Diaz, [@fatinataly](https://github.com/fatinataly)
-- **Organisation:** [MultiOmics Intelligence](https://multiomicsintelligence.co.uk)
 
-Questions about a task are best asked in the Jira ticket or the pull request, so the whole group can see the answer.
+If you want to talk science, collaborate, or just commiserate about
+read quality filtering — find me here:
+
+- 😺 **GitHub:** [fatinataly](https://github.com/fatinataly)
+- 💼 **LinkedIn:** [Fatima Diaz](https://www.linkedin.com/in/fátima-ddiaz/)
+- 📧 **Email:** fatinataly@gmail.com
+
+The workshop is supported by [MultiOmics Intelligence](https://multiomicsintelligence.co.uk).
 
 ## 📜 License
 MIT, see [`LICENSE`](LICENSE).
