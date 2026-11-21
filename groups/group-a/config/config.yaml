@@ -1,0 +1,34 @@
+# Analysis settings for Group A. Notebooks read everything from here,
+# so nothing is hard-coded. Replace every TBC once the dataset is chosen.
+group: group-a
+
+dataset:
+  name: TBC
+  geo_accession: TBC        # e.g. GSE52778
+  sra_project: TBC          # e.g. SRP033351
+  organism: TBC             # e.g. Homo sapiens
+  publication: TBC          # DOI of the original paper
+
+reference:
+  transcriptome_fasta: TBC  # e.g. GENCODE / Ensembl cDNA FASTA
+  annotation_gtf: TBC
+
+paths:
+  metadata: data/metadata/samples.csv
+  raw_data: data/raw
+  processed_data: data/processed
+  results: results
+
+design:
+  formula: "~ condition"
+  condition_column: condition
+  reference_level: TBC      # e.g. untreated
+  contrast: [condition, TBC, TBC]   # [column, test level, reference level]
+
+thresholds:
+  padj: 0.05
+  log2fc: 1.0
+  min_counts: 10
+
+enrichment:
+  gene_sets: [MSigDB_Hallmark_2020, KEGG_2021_Human]

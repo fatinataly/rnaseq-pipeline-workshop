@@ -1,0 +1,21 @@
+# Large data: never commit raw or processed data
+groups/*/data/raw/
+groups/*/data/processed/
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.sra
+*.bam
+# Tool outputs that are regenerated
+groups/*/results/qc/
+groups/*/results/salmon/
+salmon_index/
+# Python and Jupyter
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.venv/
+.env
+.DS_Store
